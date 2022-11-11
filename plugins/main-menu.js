@@ -36,7 +36,7 @@ let tags = {
   'maker': 'Maker',
 }
 const defaultMenu = {
-  before: `  *┄┄┄┅┅❑ 𝐉𝐚𝐫𝐨𝐭 𝐎𝐟𝐟𝐜 ❑┅┅┄┄┄*
+  before: `  *┄┄┄┅┅❑ HumanzzZ ❑┅┅┄┄┄*
 ┏─────────────────⬣
 ┆ 𝑯𝒂𝒊, %ucapan %name!👋
 ┗┬──────────────┈ ⳹
@@ -64,8 +64,8 @@ const defaultMenu = {
   body: '┃➺ %cmd %islimit %isPremium',
   footer: '┃\n╚══════════❖\n', 
   after: `*Made by ♡*
-*%npmname* | %version
-${'```%npmdesc```'}
+HumanzzZ | %version
+${'```oscar-multidevice```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
