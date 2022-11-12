@@ -8,7 +8,7 @@ let PhoneNumber = require("awesome-phonenumber");
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let hao = ` 
  *Official Bot By @${"0".split("@")[0]}* 
- *Powered By @${"6285850539404".split("@")[0]}*`;
+ *Powered By @${"6288804947282".split("@")[0]}*`;
   let package = JSON.parse(
     await fs.promises
       .readFile(path.join(__dirname, "../package.json"))
@@ -114,12 +114,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     key: {
       fromMe: false,
       participant: `0@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: "6285850539404-1625305606@g.us" } : {}),
+      ...(m.chat ? { remoteJid: "6288804947282-1625305606@g.us" } : {}),
     },
     message: {
       extendedTextMessage: {
-        text: `𝙾𝚜𝚌𝚊𝚛-𝙼𝚞𝚕𝚝𝚒𝙳𝚎𝚟𝚒𝚌𝚎 Whatsapp ʙᴏᴛ`,
-        title: `𝙾𝚜𝚌𝚊𝚛-𝙼𝚞𝚕𝚝𝚒𝙳𝚎𝚟𝚒𝚌𝚎 Whatsapp ʙᴏᴛ`,
+        text: `Sung Jinwoo Whatsapp ʙᴏᴛ`,
+        title: `Sung Jinwoo Whatsapp ʙᴏᴛ`,
         jpegThumbnail: await (
           await fetch("https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg")
         ).buffer(),
@@ -133,10 +133,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┏─────────────────⬣
 ┆         《 BOT INFO 》
 ┗┬──────────────┈ ⳹
-┏┆⚘ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : OSCAR-MD
+┏┆⚘ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : Sung Jinwoo
 ┆┆⚘ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛
 ┆┆⚘ 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙾𝚠𝚗𝚎𝚛
-┆┆http://wa.me/6285850539404
+┆┆http://wa.me/6288804947282
 ┆┆⚘ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${date}
 ┆┆⚘ 𝙹𝚊𝚖: ${time} WIB
 ┆┆⚘ 𝙼𝚘𝚍𝚎: 「 ${mode}  」
@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let ftt = `NOTE 📮 JIKA MENEMUKAN BUG/FITUR EROR SILAHKAN CHAT OWNER KAK JANGAN LUPA SUSCRIBE YOUTUBE BOT SEBAGAI BENTUK SUPORT BOT
 
  *Official Bot By @${"0".split("@")[0]}* 
- *Powered By @${"6285850539404".split("@")[0]}*`;
+ *Powered By @${"6288804947282".split("@")[0]}*`;
   const listMessage = {
     text: `𝙷𝚊𝚒 ${name} Jangan 𝚂𝚙𝚊𝚖 𝚈𝚊`.trim(),
     footer: "Jangan Lupa Suscribe YouTube Bot Yah Kak >//<",
