@@ -23,7 +23,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       } catch (e) {
         console.error(e)
       } finally {
-        if (!stiker) stiker = await sticker(img, false, global.packname, global.author)
+        if (!stiker) stiker = await sticker(img, false, global.stickpack, global.stickauth)
       }
     } else if (args[0]) {
       if (isUrl(args[0])) stiker = await sticker(false, args[0], global.stickpack, global.stickauth)
