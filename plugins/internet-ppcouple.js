@@ -5,14 +5,14 @@ if (res.status != 200) throw await res.text()
 let json = await res.json()
 if (!json.status) throw json
 m.reply('_*Mohon Tunggu Sebentar*_')
-  await conn.sendFile(m.chat, json.result.male, '', 'cowo', m)
-  await conn.sendFile(m.chat, json.result.female, '', 'cewe', m)*/
+  await conn.sendFile(m.chat, json.result.male, '', 'Buat Cowo', m)
+  await conn.sendFile(m.chat, json.result.female, '', 'Buat Cewe', m)*/
 
 let jsn = await fetch(`https://ziy.herokuapp.com/api/gacha/ppcouple?apikey=xZiyy`)
 let json = await jsn.json()
 m.reply('_*Mohon Tunggu Sebentar*_')
-  await conn.sendFile(m.chat, json.result.male, '', 'cowo', m)
-  await conn.sendFile(m.chat, json.result.female, '', 'cewe', m)
+  await conn.sendFile(m.chat, json.result.male, '', 'Buat Cowo', m)
+  await conn.sendFile(m.chat, json.result.female, '', 'Buat Cewe', m)
 }
 handler.help = ['ppcouple']
 handler.tags = ['internet']
