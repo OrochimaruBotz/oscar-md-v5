@@ -63,7 +63,7 @@ module.exports = {
           if (!isNumber(user.exp)) user.exp = 0
           if (! isNumber(user.spin)) user.spin = 10
           if (! isNumber(user.money)) user.money = 1000
-          if (!isNumber(user.limit)) user.limit = 1000
+          if (!isNumber(user.limit)) user.limit = 20
           if (!user.acc) user.acc = false
           if (!user.acc) user.end = false
           if (!isNumber(user.lastclaim)) user.lastclaim = 0
@@ -107,7 +107,7 @@ module.exports = {
         } else global.db.data.users[m.sender] = {
           exp: 0,
           limit: 1000,
-          money: 1000,
+          money: 20,
           spin: 10,
           hoki: 1,
           acc: false, 
