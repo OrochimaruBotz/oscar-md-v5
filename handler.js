@@ -106,8 +106,8 @@ module.exports = {
           if(!('staff' in user)) user.staff = false
         } else global.db.data.users[m.sender] = {
           exp: 0,
-          limit: 1000,
-          money: 20,
+          limit: 20,
+          money: 1000,
           spin: 10,
           hoki: 1,
           acc: false, 
@@ -393,7 +393,7 @@ module.exports = {
                                 false                
           if (!isAccept) continue
           m.plugin = name
-          if (name === 'menu.js' && (m.sender === '6282181661561@s.whatsapp.net' || m.sender === '6283175886677@s.whatsapp.net')) m.reply('Hai Dev!')
+          if (name === 'menu.js' && (m.sender === '6288804947282@s.whatsapp.net' || m.sender === '6288804947282@s.whatsapp.net')) m.reply('Hai Dev!')
           if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
             let chat = global.db.data.chats[m.chat]
             let user = global.db.data.users[m.sender]
