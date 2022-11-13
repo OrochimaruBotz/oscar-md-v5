@@ -19,7 +19,7 @@ handler.premium = false
 handler.group = true
 handler.private = false
 
-handler.owner = true
+handler.owner = false
 handler.botAdmin = true
 
 handler.fail = null
