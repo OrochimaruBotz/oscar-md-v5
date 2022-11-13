@@ -49,5 +49,5 @@ let handler  = async (m, { conn, text, usedPrefix }) => {
 handler.help = ['listpremium']
 handler.tags = ['info']
 handler.command = /^(listpremium|premiumlist|listprem|premlist)$/i
-handler.owner = true 
+handler.owner = false 
 module.exports = handler
