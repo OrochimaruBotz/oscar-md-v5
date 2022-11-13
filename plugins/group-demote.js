@@ -26,7 +26,7 @@ handler.command = /^(demo?te|member|\↓)$/i
 handler.group = true
 handler.botAdmin = true
 handler.admin = true
-handler.rowner = true 
+handler.rowner = false
 handler.fail = null
 
 module.exports = handler
