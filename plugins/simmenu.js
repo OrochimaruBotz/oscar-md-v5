@@ -121,7 +121,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         text: `Sung Jinwoo Whatsapp ʙᴏᴛ`,
         title: `Sung Jinwoo Whatsapp ʙᴏᴛ`,
         jpegThumbnail: await (
-          await fetch("https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg")
+          await fetch("https://telegra.ph/file/74fd38ef7cf0b70839de2.jpg")
         ).buffer(),
       },
     },
@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┆⚘ 𝚄𝚜𝚎𝚛 𝚁𝚎𝚐𝚒𝚜𝚝𝚎𝚛 ${totalreg}
 ┗─────────────────⬣`;
 
-  let ftt = `NOTE 📮 JIKA MENEMUKAN BUG/FITUR EROR SILAHKAN CHAT OWNER KAK JANGAN LUPA SUSCRIBE YOUTUBE BOT SEBAGAI BENTUK SUPORT BOT
+  let ftt = `NOTE 📮 JIKA MENEMUKAN BUG/FITUR EROR SILAHKAN CHAT OWNER KAK JANGAN LUPA FOLLOW AKUN GITHUB OWNER SEBAGAI BENTUK SUPPORT KAMU KE OWNER
 
  *Official Bot By @${"0".split("@")[0]}* 
  *Powered By @${"6288804947282".split("@")[0]}*`;
@@ -172,11 +172,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     media,
     tksk,
     ftt,
-    "𝚂𝚎𝚖𝚞𝚊 𝙿𝚎𝚛𝚒𝚗𝚝𝚊𝚑🎀",
+    "AllMenu",
     ".? all",
-    "𝙾𝚠𝚗𝚎𝚛⛽",
+    "Owner Bot",
     ".owner",
-    "𝙳𝚘𝚗𝚊𝚜𝚒📮",
+    "Donasi",
     ".donasi",
     m
   );
