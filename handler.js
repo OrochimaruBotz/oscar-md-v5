@@ -597,7 +597,7 @@ module.exports = {
           case 'remove':
               if(!chat.welcome) return
               let groupMetadata = await this.groupMetadata(id)
-              (action === 'add') ? text = (chat.sWelcome || conn.welcome).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc) : text = (chat.sBye || conn.bye)
+              (action === 'add') ? text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') : text = (chat.sBye || this.bye || conn.bye || 'Bye @user')).replace(/@user/g, '@' + user.split`@`[0])
               text = text.replace('@user', '@'+participants[0].split`@`[0])
               let pp = './src/avatar_contact.png'
               try {
