@@ -57,7 +57,7 @@ const defaultMenu = {
 ┆♠︎ *Limit* : Ⓛ 
 ┆♠︎ *Premium* : Ⓟ
 ┆♠︎ *Uptime:* : %uptime (%muptime)
-┆♠︎ *Penulis Ulang:* 𝐉𝐚𝐫𝐨𝐭 𝐎𝐟𝐟𝐜
+┆♠︎ *Penulis Ulang:* 𝐉𝐚𝐫𝐨𝐭 𝐎𝐟𝐟𝐜 𝐀𝐧𝐝 𝐇𝐮𝐦𝐚𝐧𝐳𝐳𝐙
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╔═❖〔 %category 〕❖════╗\n┃',
