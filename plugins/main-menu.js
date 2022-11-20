@@ -36,7 +36,7 @@ let tags = {
   'maker': 'Maker',
 }
 const defaultMenu = {
-  before: `  *┄┄┄┅┅❑ HumanzzZ ❑┅┅┄┄┄*
+  before: `  *┄┄┄┅┅❑ 𝙶𝚊𝚠𝚛 𝙶𝚞𝚛𝚊 ❑┅┅┄┄┄*
 ┏─────────────────⬣
 ┆ 𝑯𝒂𝒊, %ucapan %name!👋
 ┗┬──────────────┈ ⳹
@@ -57,14 +57,14 @@ const defaultMenu = {
 ┆♠︎ *Limit* : Ⓛ 
 ┆♠︎ *Premium* : Ⓟ
 ┆♠︎ *Uptime:* : %uptime (%muptime)
-┆♠︎ *Penulis Ulang:* 𝐉𝐚𝐫𝐨𝐭 𝐎𝐟𝐟𝐜 𝐀𝐧𝐝 𝐇𝐮𝐦𝐚𝐧𝐳𝐳𝐙
+┆♠︎ *Penulis Ulang:* Jarot Offc 𝐀𝐧𝐝 Tachibana Yuzi ×፝֟͜×
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╔═❖〔 %category 〕❖════╗\n┃',
   body: '┃➺ %cmd %islimit %isPremium',
   footer: '┃\n╚══════════❖\n', 
   after: `*Made by ♡*
-HumanzzZ | %version
+Tachibana Yuzi ×፝֟͜× | %version
 ${'```oscar-multidevice```'}
 `,
 }
