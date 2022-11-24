@@ -611,8 +611,8 @@ module.exports = {
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*Real Owner*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
+    rowner: 'Perintah ini hanya dapat digunakan oleh _*HumanzDev*_',
+    owner: 'Perintah ini hanya dapat digunakan oleh _*HumanzDev*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
     premium: 'Perintah ini hanya untuk member _*Premium*_ !',
     group: 'Perintah ini hanya dapat digunakan di grup!',
